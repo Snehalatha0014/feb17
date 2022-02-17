@@ -1,0 +1,21 @@
+a=0
+b=1
+sum=0
+n=int(input('enter n value'))
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    sum=sum+c
+print("\nThe sum of febnocci series=%d"%sum)
+
+OUTPUT:
+enter n value 4
+4
+1
+2
+3
+5
+
+The sum of febnocci series=11
